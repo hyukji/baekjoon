@@ -1,7 +1,7 @@
-U = []
-for i in range(5):
+a = [1,2,3,4,5,6]
+for l in a:
+    print(l)
+    if l == 3:
+        a.remove(3)
 
-    u =[]
-    U += [u]
-    print(U)
-
+print(a)
