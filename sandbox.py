@@ -1,7 +1,9 @@
 a = [1,2,3,4,5,6]
-for l in a:
-    print(l)
-    if l == 3:
-        a.remove(3)
+ta = tuple(a)
 
-print(a)
+for l in ta:
+    a= list(ta)
+    a.remove(l)
+    print(a)
+    # print(ta, a)
+    
