@@ -16,7 +16,6 @@ def Get_Route(cur, visited):
         if W[cur][0] == 0: # 0으로 돌아가는 길이 없다면
             return inf
         else: # 돌아가는 길이 있다면
-
             return W[cur][0]
 
     if dp[cur][visited] != 0: # 최소를 이미 구했다
