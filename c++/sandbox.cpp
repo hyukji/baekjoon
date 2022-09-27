@@ -1,31 +1,25 @@
 #include <iostream>
+#include <string>
+#include <sstream>
+
+
 using namespace std;
 
-void swap(int* x, int* y);
+string s ="1 2 3 4";
 
 int main()
 {
-    int num1 = 5;
-    int num2 = 10;
-
-    cout << "num1 " << num1 << "\n";
-    cout << "num2 " << num2 << "\n";
+    int word;
+    istringstream ss(s);
+    ss >> word;
     
-    swap(&num1, &num2);
-
-    cout << "after swap\n";
-    cout << "num1 " << num1 << "\n";
-    cout << "num2 " << num2 << "\n";
-
-    return 0;
-}
-
-
-void swap(int* px, int* py)
-{
-    int tmp;
-
-    tmp = *px;
-    *px = *py;
-    *py = tmp;
+    int M = word;
+    int m = word;
+    
+    while (ss >> word){
+        if(word > M) M = word;
+        else if(word < m) m = word;
+    }
+    
+    
 }
