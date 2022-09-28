@@ -49,3 +49,6 @@ str = "goodbye";
     ios_base::sync_with_stdio(false) => c형식의 입출력이랑 동기화 되도록. but 우리는 c++표준입력 cin, cout만 쓸거여서 false로
 
     endl vs \n => endl은 개행줄 만이 아니라 출력버퍼를 비우는 역할까지 한ㄷ.
+
+:: 특정 클래스의 함수를 쓸 수 있게 ex Family::eat()
+-> 
