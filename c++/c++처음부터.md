@@ -52,3 +52,16 @@ str = "goodbye";
 
 :: 특정 클래스의 함수를 쓸 수 있게 ex Family::eat()
 -> 
+
+
+https://doitnow-man.tistory.com/207
+ 문자열을 다룰 때 유용하게 사용 가능한 Class입니다.
+
+  1) istringstream
+    - 문자열 포맷을 parsing 할 때 사용합니다.
+
+  2) ostringstream
+    - 문자열 format을 조합하여 저장할 때 사용합니다.
+
+  3) sstringstream
+    - 문자열에서 내가 원하는 자료형의 데이터를 추출할 때 사용합니다.
